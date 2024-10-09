@@ -2,6 +2,7 @@ import './App.css';
 import ClassComp from './ClassComp';
 import Counter from './Components/Counter';
 import Listskeys from './Components/Listskeys';
+import StylingsComp from './Components/Stylings/StylingsComp';
 import FuncComp from './FuncComp';
 
 function App() {  
@@ -19,7 +20,8 @@ function App() {
       {/* <FuncComp courseName='Reactjs' duration={duration} /> */}
       {/* <ClassComp courseName='Reactjs' duration={duration} /> */}
       {/* <Counter /> */}
-      <Listskeys />
+      {/* <Listskeys /> */}
+      <StylingsComp />
     </div>
   );
 }

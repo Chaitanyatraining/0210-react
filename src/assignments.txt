@@ -14,3 +14,5 @@ Steps:
 - Create a component that accepts a status prop (e.g., "success", "error", "warning").
 - Use inline styles or CSS classes to apply different colors (e.g., green for "success", red for "error") based on the value of the status prop.
 - Render different styles depending on the prop passed.
+
+3. Todo
