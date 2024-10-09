@@ -1,0 +1,9 @@
+- components
+    types of component
+- jsx
+- virtual DOM
+    - diffing algo
+    - reconciliation
+- props
+- state
+

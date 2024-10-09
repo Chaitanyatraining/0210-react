@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ClassComp from './ClassComp';
+import Counter from './Components/Counter';
+import Listskeys from './Components/Listskeys';
+import FuncComp from './FuncComp';
 
-function App() {
+function App() {  
+  // props is nothing but an object
+  // it is used to pass data from one component to another
+  const duration = '3Months'
+
+  // state
+  // state is an object
+  // state is to update the data within the component
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FuncComp courseName='Reactjs' duration={duration} /> */}
+      {/* <ClassComp courseName='Reactjs' duration={duration} /> */}
+      {/* <Counter /> */}
+      <Listskeys />
     </div>
   );
 }
