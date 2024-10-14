@@ -2,6 +2,7 @@ import './App.css';
 import ClassComp from './ClassComp';
 import Counter from './Components/Counter';
 import Listskeys from './Components/Listskeys';
+import Pagination from './Components/Pagination';
 import StylingsComp from './Components/Stylings/StylingsComp';
 import UserData from './Components/UserData';
 import FuncComp from './FuncComp';
@@ -23,7 +24,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Listskeys /> */}
       {/* <StylingsComp /> */}
-      <UserData />
+      {/* <UserData /> */}
+      <Pagination />
     </div>
   );
 }
