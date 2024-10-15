@@ -16,3 +16,39 @@ Steps:
 - Render different styles depending on the prop passed.
 
 3. Todo
+
+-----------------------------------------
+Life cycle method Task 
+Assignment: Timer App with React Lifecycle Methods
+Objective:
+Build a simple timer application using React class components that demonstrates the use of componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods.
+
+Tasks:
+Component Setup:
+
+Create a class component named Timer.
+Initialize the state with time set to 0 and isRunning set to false.
+componentDidMount:
+
+When the component mounts, log "Timer component mounted".
+The timer should not start running automatically when the component is mounted. It will start based on user interaction.
+Start/Stop Timer:
+
+Add two buttons: Start and Stop.
+When the user clicks the Start button, set isRunning to true, and use setInterval to increment the time state every second.
+When the user clicks the Stop button, set isRunning to false, and clear the interval to stop the timer.
+componentDidUpdate:
+
+Implement componentDidUpdate to log the new time value to the console whenever the timer increments.
+Ensure that the log message only appears when time changes.
+componentWillUnmount:
+
+Implement componentWillUnmount to clean up the interval when the component is about to unmount.
+Log "Timer component will unmount" in the console.
+Ensure any running timer is stopped (i.e., the interval is cleared) when the component unmounts.
+Render Method:
+
+Display the current time (seconds) in the UI.
+Render the Start and Stop buttons that allow users to control the timer.
+Show a message indicating whether the timer is running or stopped.
+
