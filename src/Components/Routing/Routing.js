@@ -4,6 +4,7 @@ import Home from '../Home'
 import Listskeys from '../Listskeys'
 import Pagination from '../Pagination'
 import NoMatchFound from '../NoMatchFound'
+import Contactus from '../Contactus'
 
 const Routing = () => {
   return (
@@ -11,6 +12,7 @@ const Routing = () => {
         <Route path='/' element={<Home />} />
         <Route path='/listandkeys' element={<Listskeys />} />
         <Route path='/pagination' element={<Pagination />} />
+        <Route path='/contactus' element={<Contactus />} />
         <Route path='/*' element={<NoMatchFound />} />
     </Routes>
   )
