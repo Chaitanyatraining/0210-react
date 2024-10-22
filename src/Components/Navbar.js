@@ -31,6 +31,12 @@ const Navbar = () => {
                                 <Link to='paginationeffect' class="nav-link">paginationeffect</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='unmounting' class="nav-link">unmountingphase</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='usecontexthook' class="nav-link">contexthook</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='contactus' class="nav-link">Contact Us</Link>
                             </li>
                             <li class="nav-item">

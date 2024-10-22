@@ -6,4 +6,22 @@
     - reconciliation
 - props
 - state
+- list and keys
+- stylings
+- lifeCycle methods
+- form validation
+- Routing
+- Introduction to Hooks
+    - useState
+    - useeffect
+    - useRef
+    - useContext
+    - useReducer
+    - useCallback
+    - useMemo
+    - custom Hooks
+- redux / Toolkit
+- redux Thunk
+
+
 

@@ -8,6 +8,8 @@ import Contactus from '../Contactus'
 import UseStateConter from '../Hooks/UseStateConter'
 import UseEffectHook from '../Hooks/UseEffectHook'
 import PaginationEffect from '../Hooks/PaginationEffect'
+import UnmountingComp from '../Hooks/UnmountingComp'
+import UseContextHook from '../Hooks/UseContextHook'
 
 const Routing = () => {
   return (
@@ -18,6 +20,8 @@ const Routing = () => {
         <Route path='/counter' element={<UseStateConter />} />
         <Route path='/useeffectuser' element={<UseEffectHook />} />
         <Route path='/paginationeffect' element={<PaginationEffect />} />
+        <Route path='/unmounting' element={<UnmountingComp />} />
+        <Route path='/usecontexthook' element={<UseContextHook />} />
         <Route path='/contactus' element={<Contactus />} />
         <Route path='/*' element={<NoMatchFound />} />
     </Routes>
