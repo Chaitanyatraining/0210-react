@@ -20,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+
       <Navbar />
       <Routing />
       {/* <FuncComp courseName='Reactjs' duration={duration} /> */}
@@ -29,6 +30,7 @@ function App() {
       {/* <StylingsComp /> */}
       {/* <UserData /> */}
       {/* <Pagination /> */}
+      
     </div>
   );
 }

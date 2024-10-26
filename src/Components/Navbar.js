@@ -37,6 +37,12 @@ const Navbar = () => {
                                 <Link to='usecontexthook' class="nav-link">contexthook</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='userefhook' class="nav-link">userefHook</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='usereducer' class="nav-link">usereducer</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='contactus' class="nav-link">Contact Us</Link>
                             </li>
                             <li class="nav-item">

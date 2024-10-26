@@ -1,4 +1,10 @@
-1. Dynamic Styling Based on State
+import React from 'react'
+
+const assignments = () => {
+  return (
+    <div>
+        {/* 
+        1. Dynamic Styling Based on State
 Create a button that changes its background color when clicked.
 
 Steps:
@@ -52,3 +58,29 @@ Display the current time (seconds) in the UI.
 Render the Start and Stop buttons that allow users to control the timer.
 Show a message indicating whether the timer is running or stopped.
 
+-------------------------------------
+HOOKS
+Project: Notes Manager
+Description
+Build a Notes Manager application that allows users to create, edit, and delete notes.
+Users can quickly add notes using an auto-focused input field, manage the notes with
+a global context, and handle complex state operations like adding, editing, 
+and deleting notes using useReducer.
+
+Key Features
+Add Notes: Users can add notes using an input field that automatically focuses on page load.
+Edit Notes: Users can edit existing notes directly in the notes list.
+Delete Notes: Users can delete a note from the list.
+Global Notes Management: The notes are managed globally, so they are accessible from any component.
+Hooks to Implement
+useContext: Use a context to share the notes and dispatch functions across components.
+useReducer: Manage the notes list with actions to add, edit, and delete notes.
+useRef: Set focus on the input field for adding a new note when the page loads.
+
+    
+        */}
+    </div>
+  )
+}
+
+export default assignments

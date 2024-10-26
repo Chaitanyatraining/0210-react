@@ -5,9 +5,8 @@ const UseStateConter = () => {
     const [users, setUsers] = useState([])
 
     const handleIncrement = () => {
-        setCount(count + 1)
+        setCount((prevState => prevState+1))
     }
-
 
     // Rules of Hooks 
     // - always keep hooks at top level

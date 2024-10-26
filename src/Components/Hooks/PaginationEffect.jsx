@@ -9,8 +9,6 @@ const PaginationEffect = () => {
 
     }, [pageNumber])
 
-    
-
     const getUsersData = async () => {
         const response = await fetch(`https://dummyapi.io/data/v1/user?page=${pageNumber}&limit=10`, 
             {
