@@ -43,6 +43,9 @@ const Navbar = () => {
                                 <Link to='usereducer' class="nav-link">usereducer</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='usememo' class="nav-link">usememo</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='contactus' class="nav-link">Contact Us</Link>
                             </li>
                             <li class="nav-item">

@@ -12,6 +12,7 @@ import UnmountingComp from '../Hooks/UnmountingComp'
 import UseContextHook from '../Hooks/UseContextHook'
 import UseRefHook from '../Hooks/UseRefHook'
 import UseReducer from '../Hooks/UseReducer'
+import UseMemoHook from '../Hooks/UseMemoHook'
 
 const Routing = () => {
   return (
@@ -26,6 +27,7 @@ const Routing = () => {
         <Route path='/usecontexthook' element={<UseContextHook />} />
         <Route path='/userefhook' element={<UseRefHook />} />
         <Route path='/usereducer' element={<UseReducer />} />
+        <Route path='/usememo' element={<UseMemoHook />} />
         <Route path='/contactus' element={<Contactus />} />
         <Route path='/*' element={<NoMatchFound />} />
     </Routes>
